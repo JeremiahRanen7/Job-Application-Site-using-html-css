@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <center>
+                <h1>Job Application Website</h1>
+            </center>
+        <form action="">
+            <div class="form-container">
+                <div class="form-element">
+                    <label for="fname">Firstname</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your firstname">
+                </div>
+                <div class="form-element">
+                    <label for="lname">Lastname</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter your lastname">
+                </div>
+                <div class="form-element">
+                    <label for="number">Phone Number</label>
+                    <input type="number" id="number" name="number">
+                </div>
+                
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+              
+                <div class="textarea-element">
+                    <label for="address">Permanent Address</label>
+                    <textarea name="address" id="address" cols="50" rows="4"></textarea>
+                </div>
+                <div class="form-element">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" placeholder="Enter your city">
+                </div>
+                <div class="form-element">
+                    <label for="job-role">Desired Job Role</label>
+                    <select name="job-role" id="job-role">
+                        <option value="">Select Job Role</option>
+                        <option value="prompt">Prompt Engineer</option>
+                        <option value="Data">Data Analyst</option>
+                        <option value="full_stack">Full Stack Developer</option>
+                        <option value="ui_ux">UI UX Designer</option>
+                    </select>
+                </div>
+                  <div class="form-element">
+                    <label for="date"> Date to be available</label>
+                    <input value="1985-02-05" type="date" id="date" name="date" />
+                  </div>
+                  <div class="form-element">
+                    <label for="upload"> Upload Your Resume </label>
+                    <input type="file" id="upload" name="upload"/>
+                  </div>
+            </div>
+            <div class="button-container">
+                <button type="submit">Apply Now</button>
+            </div>
+        </div>
+        </form>
+    </div> 
+</body>
+</html>
